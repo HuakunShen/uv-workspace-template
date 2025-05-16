@@ -1,5 +1,5 @@
 [project]
-name = "my-lib"
+name = "lib"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -12,4 +12,5 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/my_lib"]
+packages = ["src/mylib1", "src/mylib2"]
+

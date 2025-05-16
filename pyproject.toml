@@ -11,4 +11,4 @@ members = ["packages/*"]
 
 
 [tool.uv.sources]
-my-lib = { workspace = true }
+lib = { workspace = true }
