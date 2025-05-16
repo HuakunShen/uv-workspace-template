@@ -1,3 +1,5 @@
+Simpliest way to setup a python uv workspace
+
 ```bash
 uv venv # create virtual environment
 source .venv/bin/activate # very important
